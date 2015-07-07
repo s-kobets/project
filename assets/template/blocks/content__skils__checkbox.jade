@@ -1,0 +1,27 @@
+.content__skils__checkbox.clearfix
+	.content__skils__checkbox__left
+		+checkbox-active('Методология БЭМ','c1')
+		+checkbox-active('jQuery','c2')
+		+checkbox('Использую GRUNT','c3')
+		+checkbox('HAML','c4')
+		+checkbox('SASS','c5')
+		+checkbox-active('LESS','c6')
+		+checkbox('CoffeeScript','c7')
+	.content__skils__checkbox__centered
+		+checkbox-active('Jade','c8')
+		+checkbox-active('Stylus','c9')
+		+checkbox('Знаю (изучаю) Angular','c10')
+		+checkbox('Верстка под Android','c11')
+		+checkbox('Верстка под iOS','c12')
+		input(type="checkbox" id="c13" name="cc")
+		label(for="c13")
+			span
+			| Верстка под Windows 
+			br
+			strong Phone
+	.content__skils__checkbox__right
+		+checkbox('Верстка рассылок','c14')
+		+checkbox-active('Адаптивная верстка','c15')
+		+checkbox-active('Использую Dropbox','c16')
+		+checkbox-active('Использую Gmail','c17')
+		+checkbox('Использую GitHub','c18')

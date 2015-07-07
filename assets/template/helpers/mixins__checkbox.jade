@@ -1,0 +1,10 @@
+mixin checkbox(text, number)
+	input(type='checkbox' id=number name='cc')
+	label(for=number)
+		span
+		=text
+mixin checkbox-active(text, number)
+	input(type='checkbox' id=number name='cc' checked)
+	label(for=number)
+		span
+		=text

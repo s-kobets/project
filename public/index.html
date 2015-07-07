@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="css/common.css">
+  </head>
+  <body>		
+    <div class="header">
+      <div class="header__logo clearfix">
+        <div class="header__logo__csssr"><a href="http://csssr.ru/" target="_blank" class="header__logo__csssr__image"></a>
+          <p>Секретный архив учреждения</p>
+        </div>
+        <div class="header__logo__secret"></div>
+      </div>
+      <div class="header__delo"></div>
+    </div>
+    <div class="content">
+      <form action="anketa.php" method="post">
+        <div class="content__data clearfix">
+          <label for="name" class="content__data__attribute">Полное ФИО</label>
+          <input id="name" type="text" value="Кобец Сергей Валентинович" class="content__data__information content__data__information-name">
+        </div>
+        <div class="content__data clearfix">
+          <label for="year" class="content__data__attribute">Год рождения</label>
+          <input id="year" type="text" value="1989" class="content__data__information content__data__information-year">
+        </div>
+        <div class="content__data clearfix">
+          <label for="residence" class="content__data__attribute">Место жительства</label>
+          <input id="residence" type="text" value="г. Речица, Беларусь" class="content__data__information content__data__information-residence">
+        </div>
+        <div class="content__data clearfix">
+          <label for="skype" class="content__data__attribute">Скайп</label>
+          <input id="skype" type="text" value="serzh0805" class="content__data__information content__data__information-skype">
+        </div>
+        <div class="content__data clearfix">
+          <label for="mail" class="content__data__attribute">Почта</label>
+          <input id="mail" type="text" value="s-kobets617@yandex.ru" class="content__data__information content__data__information-mail">
+        </div>
+        <div class="content__htmlacademy clearfix">
+          <h4 class="content__htmlacademy__attribute">Выпускник <a href="https://htmlacademy.ru/" target="_blank">htmlacademy.ru</a></h4>
+          <input id="rsecond" type="radio" name="radio">
+          <label for="rsecond" class="content__htmlacademy__radio"><span></span>Да</label>
+          <input id="rthird" type="radio" name="radio" checked>
+          <label for="rthird" class="content__htmlacademy__radio content__htmlacademy__radio-margin"><span></span>Нет</label>
+        </div>
+        <div class="content__skils">
+          <h4 class="content__skils__attribute">Практические навыки</h4>
+          <div class="content__skils__text clearfix"><span>*</span>
+            <p>
+              Отметьте только те технологии и типы задач,
+              которыми вы хорошо знакомы. Отсутсвие опыта отнюдь
+              означает, что у вас меньше шансов стать нашим
+              сотрудником. Это означает, что вы будете получать те
+              задачи, с которыми гарантировано будете справляться.
+            </p>
+          </div>
+          <div class="content__skils__checkbox clearfix">
+            <div class="content__skils__checkbox__left">
+                  <input type="checkbox" id="c1" name="cc" checked>
+                  <label for="c1"><span></span>Методология БЭМ
+                  </label>
+                  <input type="checkbox" id="c2" name="cc" checked>
+                  <label for="c2"><span></span>jQuery
+                  </label>
+                  <input type="checkbox" id="c3" name="cc">
+                  <label for="c3"><span></span>Использую GRUNT
+                  </label>
+                  <input type="checkbox" id="c4" name="cc">
+                  <label for="c4"><span></span>HAML
+                  </label>
+                  <input type="checkbox" id="c5" name="cc">
+                  <label for="c5"><span></span>SASS
+                  </label>
+                  <input type="checkbox" id="c6" name="cc" checked>
+                  <label for="c6"><span></span>LESS
+                  </label>
+                  <input type="checkbox" id="c7" name="cc">
+                  <label for="c7"><span></span>CoffeeScript
+                  </label>
+            </div>
+            <div class="content__skils__checkbox__centered">
+                  <input type="checkbox" id="c8" name="cc" checked>
+                  <label for="c8"><span></span>Jade
+                  </label>
+                  <input type="checkbox" id="c9" name="cc" checked>
+                  <label for="c9"><span></span>Stylus
+                  </label>
+                  <input type="checkbox" id="c10" name="cc">
+                  <label for="c10"><span></span>Знаю (изучаю) Angular
+                  </label>
+                  <input type="checkbox" id="c11" name="cc">
+                  <label for="c11"><span></span>Верстка под Android
+                  </label>
+                  <input type="checkbox" id="c12" name="cc">
+                  <label for="c12"><span></span>Верстка под iOS
+                  </label>
+              <input type="checkbox" id="c13" name="cc">
+              <label for="c13"><span></span>Верстка под Windows <br><strong>Phone</strong></label>
+            </div>
+            <div class="content__skils__checkbox__right">
+                  <input type="checkbox" id="c14" name="cc">
+                  <label for="c14"><span></span>Верстка рассылок
+                  </label>
+                  <input type="checkbox" id="c15" name="cc" checked>
+                  <label for="c15"><span></span>Адаптивная верстка
+                  </label>
+                  <input type="checkbox" id="c16" name="cc" checked>
+                  <label for="c16"><span></span>Использую Dropbox
+                  </label>
+                  <input type="checkbox" id="c17" name="cc" checked>
+                  <label for="c17"><span></span>Использую Gmail
+                  </label>
+                  <input type="checkbox" id="c18" name="cc">
+                  <label for="c18"><span></span>Использую GitHub
+                  </label>
+            </div>
+          </div>
+        </div>
+        <div class="content__slider clearfix">
+          <h4 class="content__slider__attribute">Уровень владения JavaScript</h4>
+          <div id="slider"></div>
+          <p class="content__slider__attribute__easy">Не владею</p>
+          <p class="content__slider__attribute__medium">Использую готовые решения</p>
+          <p class="content__slider__attribute__hard content__slider__atribute__hard-margin">
+             
+            Использую готовые решения<br>и умею их переделывать
+          </p>
+          <p class="content__slider__attribute__expert">Пишу сложные скрипты</p>
+        </div>
+        <div class="content__data content__data-footer clearfix">
+          <label class="content__data__attribute">Дата заполнения</label>
+          <input type="text" value="06.07.2015" class="content__data__information content__data__information-date">
+        </div>
+      </form>
+    </div>
+    <script src="js/common.js"></script>
+  </body>
+</html>

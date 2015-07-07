@@ -1,0 +1,66 @@
+input[type="checkbox"] 
+	display none  
+			
+	&:checked + label span
+		background-position -24px 0	
+
+	& + label	
+		display block
+		vertical-align bottom
+		cursor pointer
+		font 21px/25px 'PTSansBold', sans-serif		
+		color #000
+		
+		& strong
+			margin-left 29px
+	
+		& span 
+			display inline-block
+			vertical-align middle
+			margin-right 5px
+			height 32px
+			width 24px   
+			background url('../images/input-checkbox.png') no-repeat
+			
+.content__skils
+	position relative
+	width 770px		
+	margin 0 auto
+	padding-top 20px
+	
+	&__attribute
+		display inline-block	
+		font 22.43px/49.83px 'PTSansBold', sans-serif		
+		color #2f1b15
+		
+	&-padding
+		padding-top 25px
+		
+	&__text span
+		float left
+		margin-top 13px
+		font 36px/22px 'PTSansRegular', sans-serif
+		color #3d3d3d
+		
+	&__text p
+		margin-top 5px
+		width 98%
+		float right
+		font 14px/22px 'PTSansRegular', sans-serif	
+		color #3d3d3d
+	
+	&__checkbox
+		padding-top: 15px
+
+		&__left
+			width 260px
+			float left		
+
+		&__centered
+			width 240px
+			float left
+
+		&__right
+			width 230px
+			float left
+			margin-left 40px			

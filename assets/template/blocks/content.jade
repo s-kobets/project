@@ -1,0 +1,32 @@
+include ../helpers/mixins__checkbox
+
+.content
+	form(action='anketa.php', method='post')
+		.content__data.clearfix
+			label(for='name').content__data__attribute Полное ФИО
+			input(class='content__data__information content__data__information-name'
+					id='name' type='text' value='Кобец Сергей Валентинович')
+		
+		.content__data.clearfix
+			label(for='year').content__data__attribute Год рождения
+			input(class='content__data__information content__data__information-year'
+					id='year' type='text' value=1989)
+		.content__data.clearfix
+			label(for='residence').content__data__attribute Место жительства
+			input(class='content__data__information content__data__information-residence'
+					id='residence' type='text' value='г. Речица, Беларусь')
+
+		.content__data.clearfix
+			label(for='skype').content__data__attribute Скайп
+			input(class='content__data__information content__data__information-skype'
+					id='skype' type='text' value='serzh0805')
+
+		.content__data.clearfix
+			label(for='mail').content__data__attribute Почта
+			input(class='content__data__information content__data__information-mail'
+					id='mail' type='text' value='s-kobets617@yandex.ru')
+
+		include content__htmlacademy
+		include content__skils
+		include content__slider
+		include content__data-footer
